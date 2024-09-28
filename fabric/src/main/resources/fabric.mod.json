@@ -16,7 +16,7 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.example.examplemod.ExampleMod"
+            "com.klinbee.bad_apple_worldgen.BadAppleWorldgenMod"
         ]
     },
     "mixins": [
