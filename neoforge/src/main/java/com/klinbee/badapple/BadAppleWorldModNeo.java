@@ -1,6 +1,11 @@
 package com.klinbee.badapple;
 
 
+import com.klinbee.badapple.densityfunctions.Frame;
+import com.klinbee.badapple.densityfunctions.Grid;
+import net.minecraft.core.Registry;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.ResourceLocation;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 
@@ -14,6 +19,9 @@ public class BadAppleWorldModNeo {
         // project.
 
         // Use NeoForge to bootstrap the Common mod.
+        Registry.register(BuiltInRegistries.DENSITY_FUNCTION_TYPE, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID,"frame"), Frame.CODEC.codec());
+        Registry.register(BuiltInRegistries.DENSITY_FUNCTION_TYPE, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID,"grid_placer"), Grid.CODEC.codec());
+
         Constants.LOG.info("Hello NeoForge world!");
         BadAppleWorldCommon.init();
 

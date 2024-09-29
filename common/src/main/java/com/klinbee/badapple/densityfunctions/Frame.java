@@ -103,7 +103,7 @@ private static final MapCodec<Frame> MAP_CODEC = RecordCodecBuilder.mapCodec((in
     }
 
     @Override
-    public KeyDispatchDataCodec<? extends DensityFunction> codec() {
+    public @NotNull KeyDispatchDataCodec<? extends DensityFunction> codec() {
         return CODEC;
     }
 }
