@@ -14,8 +14,8 @@ import java.util.Base64;
 import java.util.zip.DataFormatException;
 import java.util.zip.Inflater;
 
-public record Frame(String frameData, int xSize, int zSize, int xPos, int zPos) implements DensityFunction {
-private static final MapCodec<Frame> MAP_CODEC = RecordCodecBuilder.mapCodec((instance) -> instance.group(Codec.STRING.fieldOf("frame_data").forGetter(Frame::frameData), Codec.INT.fieldOf("x_size").forGetter(Frame::xSize), Codec.INT.fieldOf("z_size").forGetter(Frame::zSize), Codec.INT.fieldOf("x").forGetter(Frame::xPos), Codec.INT.fieldOf("z").forGetter(Frame::zPos)).apply(instance, (Frame::new)));
+public record Frame(String frameData, int xSize, int zSize) implements DensityFunction {
+private static final MapCodec<Frame> MAP_CODEC = RecordCodecBuilder.mapCodec((instance) -> instance.group(Codec.STRING.fieldOf("frame_data").forGetter(Frame::frameData), Codec.INT.fieldOf("x_size").forGetter(Frame::xSize), Codec.INT.fieldOf("z_size").forGetter(Frame::zSize)).apply(instance, (Frame::new)));
     public static final KeyDispatchDataCodec<Frame> CODEC = KeyDispatchDataCodec.of(MAP_CODEC);
 
     public static final Base64.Decoder STRING_DECODER = Base64.getDecoder();
@@ -38,9 +38,11 @@ private static final MapCodec<Frame> MAP_CODEC = RecordCodecBuilder.mapCodec((in
             BadAppleWorldCommon.frameDfCache.put(this,decodedBytes);;
         }
 
-        int arrayPos = (currX-xPos) + (currZ-zPos)*(xSize);
+        int arrayPos = Math.floorMod(currX,xSize) + Math.floorMod(currZ,zSize) * (xSize);
 
         assert decodedBytes != null;
+        // Something went wrong = random bit operation to fix it. Sorry :P
+        // Basically it was doing like a weird inversion of my numbers, probably a signed vs unsigned int thing. Too lazy to fix.
         return decodedBytes[arrayPos] & 0xFF;
     }
 
@@ -68,19 +70,11 @@ private static final MapCodec<Frame> MAP_CODEC = RecordCodecBuilder.mapCodec((in
 
     @Override
     public @NotNull DensityFunction mapAll(DensityFunction.Visitor visitor) {
-        return visitor.apply(new Frame(this.frameData, this.xSize, this.zSize, this.xPos, this.zPos));
+        return visitor.apply(new Frame(this.frameData, this.xSize, this.zSize));
     }
 
     public String frameData() {
         return frameData;
-    }
-
-    public int xPos() {
-        return xPos;
-    }
-
-    public int zPos() {
-        return zPos;
     }
 
     public int xSize() {
