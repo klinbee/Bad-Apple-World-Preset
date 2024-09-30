@@ -3,27 +3,39 @@ package com.klinbee.badapple;
 
 import com.klinbee.badapple.densityfunctions.Frame;
 import com.klinbee.badapple.densityfunctions.Grid;
+import com.mojang.serialization.MapCodec;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.level.levelgen.DensityFunction;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
+import net.neoforged.neoforge.registries.DeferredRegister;
 
 @Mod(Constants.MOD_ID)
 public class BadAppleWorldModNeo {
 
-    public BadAppleWorldModNeo(IEventBus eventBus) {
+//    private static final DeferredRegister<MapCodec<? extends DensityFunction>> DENSITY_FUNCTIONS = DeferredRegister.create(Registries.DENSITY_FUNCTION_TYPE, Constants.MOD_ID);
+//
+//    public static final RegistryObject<MapCodec<? extends DensityFunction>> GRID = DENSITY_FUNCTIONS.register( "grid_placer", Grid.CODEC::codec);
+//    public static final RegistryObject<MapCodec<? extends DensityFunction>> FRAME = DENSITY_FUNCTIONS.register("frame", Frame.CODEC::codec);
 
-        // This method is invoked by the NeoForge mod loader when it is ready
-        // to load your mod. You can access NeoForge and Common code in this
-        // project.
+    public BadAppleWorldModNeo() {
 
-        // Use NeoForge to bootstrap the Common mod.
-        Registry.register(BuiltInRegistries.DENSITY_FUNCTION_TYPE, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID,"frame"), Frame.CODEC.codec());
-        Registry.register(BuiltInRegistries.DENSITY_FUNCTION_TYPE, ResourceLocation.fromNamespaceAndPath(Constants.MOD_ID,"grid_placer"), Grid.CODEC.codec());
-
-        Constants.LOG.info("Hello NeoForge world!");
-        BadAppleWorldCommon.init();
+//        // This method is invoked by the NeoForge mod loader when it is ready
+//        // to load your mod. You can access Forge and Common code in this
+//        // project.
+//
+//        // Use Forge to bootstrap the Common mod.
+//        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+//
+//        DENSITY_FUNCTIONS.register(modEventBus);
+//
+//        // Register ourselves for server and other game events we are interested in
+//        MinecraftForge.EVENT_BUS.register(this);
+//        Constants.LOG.info("Hello Forge world!");
+//        BadAppleWorldCommon.init();
 
     }
 }
