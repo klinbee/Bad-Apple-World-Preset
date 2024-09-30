@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "bad_apple_world:reduced/biomes/ridge_noise",
+        "points": [
+          {
+            "location": -1,
+            "derivative": 1,
+            "value": -1
+          },
+          {
+            "location": -0.1,
+            "derivative": 0,
+            "value": -0.1
+          },
+          {
+            "location": -0.1,
+            "derivative": 0,
+            "value": 0.1
+          },
+          {
+            "location": 1,
+            "derivative": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:spline",
+    "spline": {
+      "coordinate": "bad_apple_world:all_frames",
+      "points": [
+        {
+          "location": 30,
+          "derivative": 0,
+          "value": {
+            "coordinate": {
+              "type": "minecraft:noise",
+              "noise": "minecraft:continentalness",
+              "xz_scale": 0.25,
+              "y_scale": 0
+            },
+            "points": [
+              {
+                "location": -1.1,
+                "derivative": 0,
+                "value": {
+                  "coordinate": "bad_apple_world:heightmap_above",
+                  "points": [
+                    {
+                      "location": -1,
+                      "derivative": 1,
+                      "value": -1
+                    },
+                    {
+                      "location": 1,
+                      "derivative": 1,
+                      "value": 1
+                    }
+                  ]
+                }
+              },
+              {
+                "location": -1.025,
+                "derivative": 0,
+                "value": 0.4
+              },
+              {
+                "location": -0.9,
+                "derivative": 0,
+                "value": {
+                  "coordinate": "bad_apple_world:heightmap_below",
+                  "points": [
+                    {
+                      "location": -1,
+                      "derivative": 1,
+                      "value": -1
+                    },
+                    {
+                      "location": 1,
+                      "derivative": 1,
+                      "value": 1
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        },
+        {
+          "location": 128,
+          "derivative": 0,
+          "value": 0.484375
+        },
+        {
+          "location": 255,
+          "derivative": 0,
+          "value": {
+            "coordinate": "bad_apple_world:heightmap_above",
+            "points": [
+              {
+                "location": -1,
+                "derivative": 1,
+                "value": -1
+              },
+              {
+                "location": 1,
+                "derivative": 1,
+                "value": 1
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

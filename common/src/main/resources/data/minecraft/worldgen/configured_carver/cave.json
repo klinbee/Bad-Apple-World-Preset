@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:cave",
+  "config": {
+    "probability": 0.1,
+    "y": {
+      "absolute": 0
+    },
+    "yScale": 0,
+    "lava_level": {
+      "absolute": 0
+    },
+    "replaceable": "minecraft:air",
+    "horizontal_radius_multiplier": 0,
+    "vertical_radius_multiplier": 0,
+    "floor_level": 0
+  }
+}

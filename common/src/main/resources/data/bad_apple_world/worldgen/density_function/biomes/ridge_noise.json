@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:cache_once",
+  "argument": {
+    "type": "minecraft:noise",
+    "noise": "minecraft:ridge",
+    "xz_scale": 0.25,
+    "y_scale": 0
+  }
+}

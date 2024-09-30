@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:cache_once",
+      "argument": "bad_apple_world:reduced/all_frames"
+    }
+  }
+}

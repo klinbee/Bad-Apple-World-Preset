@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "bad_apple_world:all_frames_cached",
+        "points": [
+          {
+            "location": 112,
+            "value": {
+              "coordinate": "bad_apple_world:biomes/ridge_noise",
+              "points": [
+                {
+                  "location": 0,
+                  "derivative": 1,
+                  "value": 0
+                }
+              ]
+            },
+            "derivative": 0
+          },
+          {
+            "location": 136,
+            "value": {
+              "coordinate": "bad_apple_world:biomes/ridge_noise",
+              "points": [
+                {
+                  "location": -1,
+                  "derivative": 0,
+                  "value": -0.25
+                },
+                {
+                  "location": -0.1,
+                  "derivative": 0,
+                  "value": -0.1
+                },
+                {
+                  "location": -0.1,
+                  "derivative": 0,
+                  "value": 0.1
+                },
+                {
+                  "location": 1,
+                  "derivative": 0,
+                  "value": 0.25
+                }
+              ]
+            },
+            "derivative": 0.004
+          },
+          {
+            "location": 255,
+            "value": {
+              "coordinate": "bad_apple_world:biomes/ridge_noise",
+              "points": [
+                {
+                  "location": -1,
+                  "derivative": 1,
+                  "value": -1
+                },
+                {
+                  "location": -0.1,
+                  "derivative": 0,
+                  "value": -0.1
+                },
+                {
+                  "location": -0.1,
+                  "derivative": 0,
+                  "value": 0.1
+                },
+                {
+                  "location": 1,
+                  "derivative": 1,
+                  "value": 1
+                }
+              ]
+            },
+            "derivative": 0
+          }
+        ]
+      }
+    }
+  }
+}
