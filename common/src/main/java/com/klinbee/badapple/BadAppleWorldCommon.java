@@ -1,7 +1,11 @@
 package com.klinbee.badapple;
 
+import com.klinbee.badapple.densityfunctions.Frame;
+import com.klinbee.badapple.densityfunctions.Grid;
 import com.klinbee.badapple.platform.Services;
+import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.levelgen.DensityFunction;
 
