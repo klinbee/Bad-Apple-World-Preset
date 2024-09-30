@@ -36,8 +36,8 @@
       "xz_scale": 0.025,
       "y_scale": 0
     },
-    "continents": "bad_apple_world:reduced/biomes/continents",
-    "erosion": "bad_apple_world:reduced/biomes/erosion",
+    "continents": "bad_apple_world:video/biomes/continents",
+    "erosion": "bad_apple_world:video/biomes/erosion",
     "depth": {
       "type": "minecraft:y_clamped_gradient",
       "from_value": 0,
@@ -45,7 +45,7 @@
       "from_y": 64,
       "to_y": -64
     },
-    "ridges": "bad_apple_world:reduced/biomes/ridges",
+    "ridges": "bad_apple_world:video/biomes/ridges",
     "initial_density_without_jaggedness": {
       "type": "minecraft:y_clamped_gradient",
       "from_value": -1,
@@ -53,7 +53,7 @@
       "from_y": 256,
       "to_y": -64
     },
-    "final_density": "bad_apple_world:reduced/final_density",
+    "final_density": "bad_apple_world:video/final_density",
     "vein_toggle": {
       "type": "minecraft:interpolated",
       "argument": {

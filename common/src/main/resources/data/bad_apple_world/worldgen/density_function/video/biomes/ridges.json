@@ -5,12 +5,22 @@
     "argument": {
       "type": "minecraft:spline",
       "spline": {
-        "coordinate": "bad_apple_world:reduced/biomes/erosion_noise",
+        "coordinate": "bad_apple_world:video/biomes/ridge_noise",
         "points": [
           {
             "location": -1,
+            "derivative": 1,
+            "value": -1
+          },
+          {
+            "location": -0.1,
             "derivative": 0,
-            "value": -0.36
+            "value": -0.1
+          },
+          {
+            "location": -0.1,
+            "derivative": 0,
+            "value": 0.1
           },
           {
             "location": 1,

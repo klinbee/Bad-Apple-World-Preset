@@ -1,6 +1,6 @@
 {
   "type": "minecraft:add",
-  "argument1": "bad_apple_world:reduced/heightmap",
+  "argument1": "bad_apple_world:video/heightmap",
   "argument2": {
     "type": "minecraft:y_clamped_gradient",
     "from_y": 0,

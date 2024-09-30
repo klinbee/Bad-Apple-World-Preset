@@ -4,7 +4,7 @@
       "type": "minecraft:overworld",
       "generator": {
         "type": "minecraft:noise",
-        "settings": "bad_apple_world:reduced_bad_apple",
+        "settings": "bad_apple_world:video_bad_apple",
         "biome_source": {
           "type": "minecraft:multi_noise",
           "preset": "minecraft:overworld"

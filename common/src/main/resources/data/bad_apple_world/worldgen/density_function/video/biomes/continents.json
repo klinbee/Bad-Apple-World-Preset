@@ -5,7 +5,7 @@
     "argument": {
       "type": "minecraft:spline",
       "spline": {
-        "coordinate": "bad_apple_world:reduced/all_frames_cached",
+        "coordinate": "bad_apple_world:video/all_frames_cached",
         "points": [
           {
             "location": 0,

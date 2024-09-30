@@ -4,7 +4,7 @@
     "type": "minecraft:cache_2d",
     "argument": {
       "type": "minecraft:cache_once",
-      "argument": "bad_apple_world:reduced/all_frames"
+      "argument": "bad_apple_world:video/all_frames"
     }
   }
 }
