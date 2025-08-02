@@ -16,26 +16,15 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 @Mod(Constants.MOD_ID)
 public class BadAppleWorldModNeo {
 
-//    private static final DeferredRegister<MapCodec<? extends DensityFunction>> DENSITY_FUNCTIONS = DeferredRegister.create(Registries.DENSITY_FUNCTION_TYPE, Constants.MOD_ID);
-//
-//    public static final RegistryObject<MapCodec<? extends DensityFunction>> GRID = DENSITY_FUNCTIONS.register( "grid_placer", Grid.CODEC::codec);
-//    public static final RegistryObject<MapCodec<? extends DensityFunction>> FRAME = DENSITY_FUNCTIONS.register("frame", Frame.CODEC::codec);
+    private static final DeferredRegister<MapCodec<? extends DensityFunction>> DENSITY_FUNCTIONS = DeferredRegister.create(Registries.DENSITY_FUNCTION_TYPE, Constants.MOD_ID);
 
-    public BadAppleWorldModNeo() {
+    public static final Supplier<MapCodec<Grid>> GRID = DENSITY_FUNCTIONS.register( "grid_placer", Grid.CODEC::codec);
+    public static final Supplier<MapCodec<Frame>> FRAME = DENSITY_FUNCTIONS.register("frame", Frame.CODEC::codec);
 
-//        // This method is invoked by the NeoForge mod loader when it is ready
-//        // to load your mod. You can access Forge and Common code in this
-//        // project.
-//
-//        // Use Forge to bootstrap the Common mod.
-//        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
-//
-//        DENSITY_FUNCTIONS.register(modEventBus);
-//
-//        // Register ourselves for server and other game events we are interested in
-//        MinecraftForge.EVENT_BUS.register(this);
-//        Constants.LOG.info("Hello Forge world!");
-//        BadAppleWorldCommon.init();
+    public BadAppleWorldModNeo(IEventBus eventBus) {
+
+        DENSITY_FUNCTIONS.register(eventBus);
+        BadAppleWorldCommon.init();
 
     }
 }
