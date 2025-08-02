@@ -34,8 +34,6 @@ public class BadAppleWorldModForge {
         // Use Forge to bootstrap the Common mod.
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        modEventBus.addListener(this::commonSetup);
-
         DENSITY_FUNCTIONS.register(modEventBus);
 
         // Register ourselves for server and other game events we are interested in
@@ -43,25 +41,5 @@ public class BadAppleWorldModForge {
         Constants.LOG.info("Hello Forge world!");
         BadAppleWorldCommon.init();
 
-    }
-
-    private void commonSetup(final FMLCommonSetupEvent event)
-    {
-    }
-
-    // You can use SubscribeEvent and let the Event Bus discover methods to call
-    @SubscribeEvent
-    public void onServerStarting(ServerStartingEvent event)
-    {
-    }
-
-    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-    @Mod.EventBusSubscriber(modid = Constants.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-    public static class ClientModEvents
-    {
-        @SubscribeEvent
-        public static void onClientSetup(FMLClientSetupEvent event)
-        {
-        }
     }
 }
