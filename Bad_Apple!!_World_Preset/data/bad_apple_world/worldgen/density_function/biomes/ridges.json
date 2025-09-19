@@ -8,21 +8,36 @@
         "coordinate": "bad_apple_world:all_frames_cached",
         "points": [
           {
-            "location": 112,
+            "location": 0,
             "value": {
               "coordinate": "bad_apple_world:biomes/ridge_noise",
               "points": [
                 {
-                  "location": 0,
+                  "location": -1,
                   "derivative": 1,
-                  "value": 0
+                  "value": -1
+                },
+                {
+                  "location": -0.1,
+                  "derivative": 0,
+                  "value": -0.1
+                },
+                {
+                  "location": -0.1,
+                  "derivative": 0,
+                  "value": 0.1
+                },
+                {
+                  "location": 1,
+                  "derivative": 1,
+                  "value": 1
                 }
               ]
             },
             "derivative": 0
           },
           {
-            "location": 136,
+            "location": 120,
             "value": {
               "coordinate": "bad_apple_world:biomes/ridge_noise",
               "points": [
@@ -51,29 +66,14 @@
             "derivative": 0
           },
           {
-            "location": 255,
+            "location": 144,
             "value": {
               "coordinate": "bad_apple_world:biomes/ridge_noise",
               "points": [
                 {
-                  "location": -1,
+                  "location": 0,
                   "derivative": 1,
-                  "value": -1
-                },
-                {
-                  "location": -0.1,
-                  "derivative": 0,
-                  "value": -0.1
-                },
-                {
-                  "location": -0.1,
-                  "derivative": 0,
-                  "value": 0.1
-                },
-                {
-                  "location": 1,
-                  "derivative": 1,
-                  "value": 1
+                  "value": 0
                 }
               ]
             },

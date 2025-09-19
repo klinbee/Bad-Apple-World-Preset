@@ -9,6 +9,26 @@
         "points": [
           {
             "location": 0,
+            "value": 1,
+            "derivative": 0
+          },
+          {
+            "location": 124,
+            "value": -0.11,
+            "derivative": -0.003
+          },
+          {
+            "location": 159,
+            "value": -0.19,
+            "derivative": -0.004
+          },
+          {
+            "location": 254.999,
+            "value": -0.5,
+            "derivative": 0
+          },
+          {
+            "location": 255,
             "value": {
               "coordinate": "bad_apple_world:biomes/continents_noise",
               "points": [
@@ -24,26 +44,6 @@
                 }
               ]
             },
-            "derivative": 0
-          },
-          {
-            "location": 0.001,
-            "value": -0.5,
-            "derivative": 0
-          },
-          {
-            "location": 96,
-            "value": -0.19,
-            "derivative": 0.003
-          },
-          {
-            "location": 132,
-            "value": -0.11,
-            "derivative": 0.004
-          },
-          {
-            "location": 255,
-            "value": 1,
             "derivative": 0
           }
         ]

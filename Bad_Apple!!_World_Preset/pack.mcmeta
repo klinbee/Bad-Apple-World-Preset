@@ -2,15 +2,28 @@
   "pack": {
     "description": [
       {
-        "text": "【東方】Bad Apple!! ＰＶ 【影絵】",
-        "color": "#ffffff"
+        "color": "#ffffff",
+        "text": "【東方】Bad Apple!! ＰＶ 【影絵】"
       },
       "\n",
       {
-        "text": "Terrain by Klinbee",
-        "color": "#ffffff"
+        "color": "#000000",
+        "text": "Terrain by "
+      },
+      {
+        "color": "#ffbbbb",
+        "text": "Klinbee"
       }
     ],
-    "pack_format": 48
+    "pack_format": 15,
+    "supported_formats": [15, 999]
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "overlay_1_21",
+        "formats": [48, 999]
+      }
+    ]
   }
 }

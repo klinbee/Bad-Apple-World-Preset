@@ -1,8 +1,9 @@
 {
   "type": "moredfs:gapped_grid_square_spiral",
+  "spacing": 1,
   "x_size": 544,
   "z_size": 424,
-  "out_of_bounds_argument": -1,
+  "out_of_bounds_argument": 256,
   "grid_cell_args": [
     "bad_apple_world:frames/43",
     "bad_apple_world:frames/44",
@@ -6532,7 +6533,6 @@
     "bad_apple_world:frames/6568",
     "bad_apple_world:frames/6569",
     "bad_apple_world:frames/6570",
-    "bad_apple_world:frames/6571",
-    "bad_apple_world:frames/6572"
+    "bad_apple_world:frames/6571"
   ]
 }
