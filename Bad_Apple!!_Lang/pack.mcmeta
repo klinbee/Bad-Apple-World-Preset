@@ -1,0 +1,24 @@
+{
+  "pack": {
+    "description": [
+      {
+        "color": "#ffffff",
+        "text": "【東方】Bad Apple!! ＰＶ 【影絵】 Lang Pack"
+      },
+      "\n",
+      {
+        "color": "#000000",
+        "text": "Made by "
+      },
+      {
+        "color": "#ffbbbb",
+        "text": "Klinbee"
+      }
+    ],
+    "pack_format": 15,
+    "supported_formats": [15, 999]
+  },
+  "overlays": {
+    "entries": []
+  }
+}
