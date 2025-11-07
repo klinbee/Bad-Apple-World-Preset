@@ -4,7 +4,7 @@
       "type": "minecraft:overworld",
       "generator": {
         "type": "minecraft:noise",
-        "settings": "bad_apple_world:video_bad_apple",
+        "settings": "bad_apple_world:video_overworld_bad_apple",
         "biome_source": {
           "type": "minecraft:multi_noise",
           "preset": "minecraft:overworld"
@@ -15,7 +15,7 @@
       "type": "minecraft:the_end",
       "generator": {
         "type": "minecraft:noise",
-        "settings": "minecraft:end",
+        "settings": "bad_apple_world:video_end_bad_apple",
         "biome_source": {
           "type": "minecraft:the_end"
         }
@@ -25,7 +25,7 @@
       "type": "minecraft:the_nether",
       "generator": {
         "type": "minecraft:noise",
-        "settings": "minecraft:nether",
+        "settings": "bad_apple_world:video_nether_bad_apple",
         "biome_source": {
           "type": "minecraft:multi_noise",
           "preset": "minecraft:nether"

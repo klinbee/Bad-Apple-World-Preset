@@ -1,0 +1,41 @@
+{
+  "aquifers_enabled": false,
+  "ore_veins_enabled": false,
+  "legacy_random_source": true,
+  "disable_mob_generation": true,
+  "sea_level": 0,
+  "default_block": {
+    "Name": "minecraft:end_stone"
+  },
+  "default_fluid": {
+    "Name": "minecraft:air"
+  },
+  "noise": {
+    "height": 128,
+    "min_y": 0,
+    "size_horizontal": 2,
+    "size_vertical": 1
+  },
+  "noise_router": {
+    "barrier": "bad_apple_world:video_end/aquifer_barrier",
+    "fluid_level_floodedness": "bad_apple_world:video_end/aquifer_floodedness",
+    "fluid_level_spread": "bad_apple_world:video_end/aquifer_spread",
+    "lava": "bad_apple_world:video_end/aquifer_lava",
+    "temperature": "bad_apple_world:video_end/temperature",
+    "vegetation": "bad_apple_world:video_end/vegetation",
+    "continents": "bad_apple_world:video_end/continents",
+    "erosion": "bad_apple_world:video_end/erosion",
+    "depth": "bad_apple_world:video_end/depth",
+    "ridges": "bad_apple_world:video_end/ridges",
+    "final_density": "bad_apple_world:video_end/final_density",
+    "initial_density_without_jaggedness": "bad_apple_world:video_end/initial_density_without_jaggedness",
+    "vein_gap": "bad_apple_world:video_end/vein_gap",
+    "vein_ridged": "bad_apple_world:video_end/vein_ridged",
+    "vein_toggle": "bad_apple_world:video_end/vein_toggle"
+  },
+  "spawn_target": [],
+  "surface_rule": {
+    "type": "minecraft:sequence",
+    "sequence": []
+  }
+}
