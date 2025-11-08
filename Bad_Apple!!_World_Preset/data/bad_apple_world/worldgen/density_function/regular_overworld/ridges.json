@@ -10,7 +10,7 @@
           {
             "location": 120,
             "value": {
-              "coordinate": "bad_apple_world:regular_overworld/base/noise_ridges",
+              "coordinate": "bad_apple_world:noise_ridges",
               "points": [
                 {
                   "location": -0.1,
@@ -39,7 +39,7 @@
           {
             "location": 144,
             "value": {
-              "coordinate": "bad_apple_world:regular_overworld/base/noise_ridges",
+              "coordinate": "bad_apple_world:noise_ridges",
               "points": [
                 {
                   "location": 0,

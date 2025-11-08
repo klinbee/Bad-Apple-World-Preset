@@ -1,4 +1,11 @@
 {
-  "type": "minecraft:constant",
-  "argument": 0
+  "type": "minecraft:add",
+  "argument1": "bad_apple_world:regular_heightmap",
+  "argument2": {
+    "type": "minecraft:y_clamped_gradient",
+    "from_y": 0,
+    "to_y": 384,
+    "from_value": -0.2421875,
+    "to_value": -3.2421875
+  }
 }

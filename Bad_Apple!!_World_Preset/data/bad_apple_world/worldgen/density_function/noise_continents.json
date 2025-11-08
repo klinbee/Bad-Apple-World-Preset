@@ -1,6 +1,6 @@
 {
   "type": "minecraft:noise",
-  "noise": "bad_apple_world:nether_vegetation",
+  "noise": "minecraft:continentalness",
   "xz_scale": 0.25,
   "y_scale": 0
 }

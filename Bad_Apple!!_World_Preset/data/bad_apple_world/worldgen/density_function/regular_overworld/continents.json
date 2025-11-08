@@ -30,7 +30,7 @@
           {
             "location": 255,
             "value": {
-              "coordinate": "bad_apple_world:regular_overworld/base/noise_continents",
+              "coordinate": "bad_apple_world:noise_continents",
               "points": [
                 {
                   "location": -1,

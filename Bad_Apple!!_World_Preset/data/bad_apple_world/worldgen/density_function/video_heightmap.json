@@ -7,7 +7,7 @@
         "location": 0,
         "derivative": 0,
         "value": {
-          "coordinate": "bad_apple_world:video_overworld/base/noise_heightmap_above",
+          "coordinate": "bad_apple_world:noise_heightmap_above",
           "points": [
             {
               "location": 0,
@@ -26,7 +26,7 @@
         "location": 225,
         "derivative": 0,
         "value": {
-          "coordinate": "bad_apple_world:video_overworld/base/noise_heightmap_above",
+          "coordinate": "bad_apple_world:noise_heightmap_below",
           "points": [
             {
               "location": 0,

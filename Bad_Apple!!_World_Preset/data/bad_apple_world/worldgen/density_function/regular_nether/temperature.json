@@ -1,4 +1,6 @@
 {
-  "type": "minecraft:constant",
-  "argument": 0
+  "type": "minecraft:noise",
+  "noise": "bad_apple_world:nether_temperature",
+  "xz_scale": 0.25,
+  "y_scale": 0
 }

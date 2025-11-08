@@ -1,6 +1,6 @@
 {
   "type": "minecraft:noise",
-  "noise": "bad_apple_world:nether_temperature",
+  "noise": "minecraft:erosion",
   "xz_scale": 0.025,
   "y_scale": 0
 }

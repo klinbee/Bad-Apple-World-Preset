@@ -5,7 +5,7 @@
     "argument": {
       "type": "minecraft:spline",
       "spline": {
-        "coordinate": "bad_apple_world:video_overworld/base/noise_erosion",
+        "coordinate": "bad_apple_world:noise_erosion",
         "points": [
           {
             "location": -1,

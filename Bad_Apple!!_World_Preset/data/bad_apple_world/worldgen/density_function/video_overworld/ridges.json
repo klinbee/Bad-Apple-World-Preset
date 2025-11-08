@@ -5,7 +5,7 @@
     "argument": {
       "type": "minecraft:spline",
       "spline": {
-        "coordinate": "bad_apple_world:video_overworld/base/noise_ridge",
+        "coordinate": "bad_apple_world:noise_ridges",
         "points": [
           {
             "location": -0.1,

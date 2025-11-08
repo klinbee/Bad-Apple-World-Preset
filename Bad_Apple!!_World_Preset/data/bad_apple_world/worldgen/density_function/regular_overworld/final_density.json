@@ -6,7 +6,7 @@
     "argument1": -1,
     "argument2": {
       "type": "minecraft:add",
-      "argument1": "bad_apple_world:regular_overworld/base/heightmap",
+      "argument1": "bad_apple_world:regular_heightmap",
       "argument2": {
         "type": "minecraft:y_clamped_gradient",
         "from_y": 0,

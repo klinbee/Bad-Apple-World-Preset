@@ -21,6 +21,10 @@
   "overlays": {
     "entries": [
       {
+        "directory": "overlay_1_20_5",
+        "formats": [41, 999]
+      },
+      {
         "directory": "overlay_1_21",
         "formats": [48, 999]
       }
