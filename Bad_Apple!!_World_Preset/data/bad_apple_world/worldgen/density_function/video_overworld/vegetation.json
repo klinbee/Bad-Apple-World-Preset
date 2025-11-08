@@ -1,4 +1,6 @@
 {
-  "type": "minecraft:constant",
-  "argument": 0
+  "type": "minecraft:noise",
+  "noise": "minecraft:vegetation",
+  "xz_scale": 0.025,
+  "y_scale": 0
 }

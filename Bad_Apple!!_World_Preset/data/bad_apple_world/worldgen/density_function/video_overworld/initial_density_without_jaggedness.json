@@ -1,4 +1,8 @@
 {
-  "type": "minecraft:constant",
-  "argument": 0
+  "": "consider this being depth instead?",
+  "type": "minecraft:y_clamped_gradient",
+  "from_value": -1,
+  "to_value": 1,
+  "from_y": 256,
+  "to_y": -64
 }

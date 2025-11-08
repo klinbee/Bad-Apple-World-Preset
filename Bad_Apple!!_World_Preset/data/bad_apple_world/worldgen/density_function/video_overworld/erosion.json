@@ -1,4 +1,24 @@
 {
-  "type": "minecraft:constant",
-  "argument": 0
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "bad_apple_world:video_overworld/base/noise_erosion",
+        "points": [
+          {
+            "location": -1,
+            "derivative": 0,
+            "value": -0.36
+          },
+          {
+            "location": 1,
+            "derivative": 1,
+            "value": 1
+          }
+        ]
+      }
+    }
+  }
 }

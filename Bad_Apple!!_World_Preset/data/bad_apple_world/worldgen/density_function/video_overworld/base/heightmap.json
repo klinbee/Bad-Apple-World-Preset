@@ -1,13 +1,13 @@
 {
   "type": "minecraft:spline",
   "spline": {
-    "coordinate": "bad_apple_world:all_frames",
+    "coordinate": "bad_apple_world:video_all_frames",
     "points": [
       {
         "location": 0,
         "derivative": 0,
         "value": {
-          "coordinate": "bad_apple_world:heightmap_above",
+          "coordinate": "bad_apple_world:video_overworld/base/noise_heightmap_above",
           "points": [
             {
               "location": 0,
@@ -26,7 +26,7 @@
         "location": 225,
         "derivative": 0,
         "value": {
-          "coordinate": "bad_apple_world:heightmap_below",
+          "coordinate": "bad_apple_world:video_overworld/base/noise_heightmap_above",
           "points": [
             {
               "location": 0,

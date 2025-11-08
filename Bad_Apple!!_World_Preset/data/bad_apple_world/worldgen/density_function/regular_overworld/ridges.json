@@ -1,4 +1,57 @@
 {
-  "type": "minecraft:constant",
-  "argument": 0
+  "type": "minecraft:flat_cache",
+  "argument": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:spline",
+      "spline": {
+        "coordinate": "bad_apple_world:regular_all_frames_cached",
+        "points": [
+          {
+            "location": 120,
+            "value": {
+              "coordinate": "bad_apple_world:regular_overworld/base/noise_ridges",
+              "points": [
+                {
+                  "location": -0.1,
+                  "value": -0.1,
+                  "derivative": 1
+                },
+                {
+                  "location": -0.1,
+                  "value": -0.1,
+                  "derivative": 0
+                },
+                {
+                  "location": 0.1,
+                  "value": -0.1,
+                  "derivative": 0
+                },
+                {
+                  "location": 0.1,
+                  "value": 0.1,
+                  "derivative": 1
+                }
+              ]
+            },
+            "derivative": 0
+          },
+          {
+            "location": 144,
+            "value": {
+              "coordinate": "bad_apple_world:regular_overworld/base/noise_ridges",
+              "points": [
+                {
+                  "location": 0,
+                  "derivative": 1,
+                  "value": 0
+                }
+              ]
+            },
+            "derivative": 0
+          }
+        ]
+      }
+    }
+  }
 }
