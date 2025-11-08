@@ -1,5 +1,4 @@
 {
-  "": "consider this being depth instead?",
   "type": "minecraft:y_clamped_gradient",
   "from_value": -1,
   "to_value": 1,

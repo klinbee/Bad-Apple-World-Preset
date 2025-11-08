@@ -1,6 +1,6 @@
 {
   "type": "moredfs:gapped_grid_square_spiral",
-  "spacing": 2,
+  "spacing": 1,
   "x_size": 544,
   "z_size": 424,
   "out_of_bounds_argument": 256,
