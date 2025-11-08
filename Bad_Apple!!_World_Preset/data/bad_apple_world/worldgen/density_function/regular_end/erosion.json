@@ -1,4 +1,23 @@
 {
-  "type": "minecraft:constant",
-  "argument": 0
+  "type": "minecraft:spline",
+  "spline": {
+    "coordinate": "bad_apple_world:regular_all_frames_cached",
+    "points": [
+      {
+        "location": 0,
+        "derivative": 0,
+        "value": 0.4
+      },
+      {
+        "location": 128,
+        "derivative": 0,
+        "value": 0
+      },
+      {
+        "location": 255,
+        "derivative": 0,
+        "value": -0.2
+      }
+    ]
+  }
 }
