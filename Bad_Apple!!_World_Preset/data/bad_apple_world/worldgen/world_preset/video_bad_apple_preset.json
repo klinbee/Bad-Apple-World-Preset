@@ -6,8 +6,8 @@
         "type": "minecraft:noise",
         "settings": "bad_apple_world:video_overworld_bad_apple",
         "biome_source": {
-          "type": "minecraft:multi_noise",
-          "preset": "minecraft:overworld"
+          "type": "minecraft:fixed",
+          "biome": "bad_apple_world:biome"
         }
       }
     },
